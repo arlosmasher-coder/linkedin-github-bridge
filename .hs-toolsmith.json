@@ -1,0 +1,14 @@
+{
+  "hsToolsmith": true,
+  "title": "linkedin-github-bridge",
+  "pitch": "Link GitHub usernames to LinkedIn profiles and validate cross-profile consistency.",
+  "language": "typescript",
+  "category": "Integration",
+  "keyFeatures": [
+    "Pluggable “profile source” adapters (GitHub now, LinkedIn later/manual)",
+    "Consistency rules (name, URL presence, company/domain hints)",
+    "Human-in-the-loop verification prompts",
+    "Machine-readable reports for HRIS/ATS ingestion"
+  ],
+  "targetUsers": "Teams maintaining internal directories who want to verify developer identity links across GitHub and LinkedIn."
+}
