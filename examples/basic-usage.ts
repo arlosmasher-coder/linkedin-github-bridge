@@ -7,9 +7,10 @@ async function main() {
   console.log("Default run:", result);
 
   // Create with custom options
-  const verbose = new LinkedinGithubBridge({ verbose: true });
+  const verbose = new LinkedinGithubBridge({ verbose: true }); 
   const verboseResult = await verbose.run();
   console.log("Verbose run:", verboseResult);
+  console.log("Verbose example completed");
 }
 
 main().catch(console.error);
